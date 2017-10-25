@@ -1,0 +1,89 @@
+body {
+  background-image: url('http://68.media.tumblr.com/e5da3cb3fbe9af8f2198f3459e72424a/tumblr_inline_n258tklDt11qhwjx8.png');
+  font-family: helvetica;
+  color:white;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+.container{
+  width: 50%;
+  margin: auto;
+  padding: 1% 0 2% 0;
+  background-color:black;
+  opacity: 0.8;
+}
+
+h1{
+  text-align:center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 0 5px 0;
+  padding: 0;
+  font-size: 20px;
+  overflow: hidden;
+  background-color: #222;
+}
+
+li {
+  float: left;
+}
+
+.all{
+  width:50%;
+}
+.small {
+  width: 25%;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  margin-right:5px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.part{
+  background-color: green;
+  overflow:hidden;
+  padding: 1.5%;
+  margin-bottom: 5px;
+  font-size: 110%;
+}
+
+img{
+  height: auto;
+  width: 80px;
+  margin-right: 2%;
+  float:left;
+}
+
+.name{
+  font-size:125%;
+}
+
+.info{
+  margin-top:1.5%;
+}
+
+.hidden{
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+}
+
+.offline{
+  background-color: #555;
+}
